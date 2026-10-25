@@ -1,90 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>GA4 Testing Lab</title>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F7F4L54ZT6"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-
-        gtag('js', new Date());
-        gtag('config', 'G-F7F4L54ZT6');
-    </script>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f7fb;
-            margin: 0;
-            padding: 40px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-
-        h1 {
-            color: #222;
-        }
-
-        p {
-            color: #666;
-        }
-
-        .card {
-            background: white;
-            padding: 25px;
-            margin-top: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-        }
-
-        button {
-            padding: 12px 18px;
-            margin: 5px;
-            border: none;
-            border-radius: 8px;
-            background: #4285f4;
-            color: white;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: #3367d6;
-        }
-    </style>
-</head>
-
-<body>
-
-    <div class="container">
-
-        <h1>GA4 Testing Lab</h1>
-
-        <p>
-            This website is for testing Google Analytics 4 events.
-        </p>
-
-        <div class="card">
-
-            <h2>Test Events</h2>
-
-            <button>View Product</button>
-            <button>Add to Cart</button>
-            <button>Sign Up</button>
-            <button>Login</button>
-            <button>Purchase</button>
-
-        </div>
-
-    </div>
-
-</body>
-</html>
+<!doctype html>
+<html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b0813"><meta name="description" content="آزمایشگاه تعاملی رویدادهای Google Analytics 4"><title>آزمایشگاه GA4 | تاک</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
+:root{color-scheme:dark;--bg:#0b0813;--panel:#151120;--line:#ffffff17;--text:#f6f1ff;--muted:#a69bbd;--purple:#a855f7;--pink:#e879f9;--green:#4adea4;--amber:#fbbf24;--red:#fb7185}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 75% -10%,#7c3aed38,transparent 35%),var(--bg);color:var(--text);font-family:Vazirmatn,Tahoma,sans-serif;min-height:100vh}button,input,textarea{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--pink);outline-offset:3px}.shell{max-width:1400px;margin:auto;padding:28px clamp(15px,3vw,42px) 40px}.topbar,.brand,.top-actions,.pill,.hero-actions,.panel-head,.stat-top,.console-toolbar,.form-actions,.footer{display:flex;align-items:center;justify-content:space-between;gap:12px}.topbar{margin-bottom:30px}.brand{justify-content:flex-start;gap:12px}.brand-mark,.stat-icon,.ev-icon,.consent-icon{display:grid;place-items:center;background:#a855f71d;color:#d8b4fe;border-radius:14px}.brand-mark{width:46px;height:46px;background:linear-gradient(145deg,#c084fc,#7c3aed);color:white}.brand-mark svg{width:25px}.brand-name{font-weight:800}.brand-sub,.muted,.hero p,.panel-head p,.stat-note,.form-hint{font-size:12px;color:var(--muted);line-height:1.9}.brand-sub{font-size:11px}.top-actions{flex-wrap:wrap}.pill{justify-content:flex-start;padding:8px 12px;border:1px solid var(--line);border-radius:30px;font-size:11px;color:#d8cbea}.dot{width:7px;height:7px;background:var(--amber);border-radius:50%}.dot.ok{background:var(--green)}.ghost,.primary,.secondary{padding:10px 14px;border:1px solid var(--line);border-radius:12px;font-size:12px;font-weight:600}.ghost,.secondary{background:#ffffff06;color:#e8ddf6}.primary{background:linear-gradient(135deg,#a855f7,#7c3aed);color:white;border-color:transparent}.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}.hero-copy,.hero-art,.stat,.panel{border:1px solid var(--line);border-radius:23px;background:linear-gradient(145deg,#191328,#100d18)}.hero-copy{padding:clamp(24px,4vw,45px);position:relative;overflow:hidden;background:linear-gradient(120deg,#211432,#151020)}.eyebrow,.section-tag{display:inline-flex;gap:7px;align-items:center;padding:7px 10px;border-radius:20px;color:#d8b4fe;background:#a855f714;border:1px solid #a855f72a;font-size:10px}.eyebrow span{width:6px;height:6px;background:var(--pink);border-radius:50%}h1{font-size:clamp(29px,4vw,44px);line-height:1.4;letter-spacing:-1px;margin:16px 0 10px}h1 em{font-style:normal;color:#c084fc}.hero p{max-width:620px;font-size:13px}.hero-actions{justify-content:flex-start;flex-wrap:wrap;margin-top:20px}.hero-art{padding:23px;display:flex;flex-direction:column;justify-content:space-between;min-height:250px;background:radial-gradient(ellipse at 10% 10%,#7c3aed33,transparent 55%),#151020}.chart{height:125px;display:flex;align-items:end;gap:11px;padding:0 8px;margin:18px 0}.bar{flex:1;max-width:34px;border-radius:7px 7px 2px 2px;background:linear-gradient(#d8b4fe,#7c3aed)}.bar:nth-child(1){height:28%}.bar:nth-child(2){height:46%}.bar:nth-child(3){height:38%}.bar:nth-child(4){height:68%}.bar:nth-child(5){height:53%}.bar:nth-child(6){height:84%}.bar:nth-child(7){height:66%}.bar:nth-child(8){height:100%}.chart-foot{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:11px}.chart-foot strong{display:block;font-size:22px;color:white}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin:20px 0}.stat{padding:17px;min-width:0}.stat-top{font-size:11px;color:var(--muted)}.stat-icon{width:32px;height:32px}.stat-icon svg{width:17px}.stat-value{font-size:26px;font-weight:800;margin-top:10px;direction:ltr;text-align:right}.stat-note{font-size:10px}.consent-panel{margin:20px 0;padding:18px 20px;border:1px solid #a855f744;border-radius:18px;background:#2113318c;display:flex;align-items:center;justify-content:space-between;gap:18px}.consent-info{display:flex;gap:12px;align-items:flex-start}.consent-icon{width:38px;height:38px;flex-shrink:0}.consent-info strong{font-size:12px}.consent-info p{font-size:11px;color:var(--muted);line-height:1.9;margin:5px 0 0}.consent-actions{display:flex;gap:8px;flex-shrink:0}.layout{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:start}.panel{overflow:hidden;min-width:0}.panel-head{padding:21px 22px 16px;border-bottom:1px solid var(--line);align-items:flex-start}.panel-head h2{font-size:15px;margin:0 0 5px}.panel-head p{margin:0;font-size:11px}.panel-body{padding:20px 22px}.section-tag{white-space:nowrap}.event-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.event-btn{display:flex;align-items:center;gap:10px;text-align:right;padding:13px 11px;border-radius:14px;border:1px solid var(--line);background:#ffffff04;color:white;transition:.18s}.event-btn:hover{transform:translateY(-2px);border-color:#a855f777;background:#a855f70d}.ev-icon{width:38px;height:38px;flex:0 0 38px}.ev-icon svg{width:19px}.event-btn strong{display:block;font-size:11px;margin-bottom:4px}.event-btn small{display:block;color:var(--muted);font-size:10px;direction:ltr;text-align:right}.arrow{margin-right:auto;color:#88769c}.notice{margin-top:14px;padding:12px;border:1px solid #fbbf2425;background:#fbbf240b;border-radius:12px;color:#e8d9ad;font-size:10px;line-height:1.9}.custom-form{border-top:1px solid var(--line);padding-top:20px;margin-top:20px}.form-title{font-size:13px;margin:0}.form-hint{margin:4px 0 14px;font-size:10px}label{display:block;font-size:11px;color:#c9bed9;margin-bottom:6px}.field{width:100%;background:#0e0b15;border:1px solid #332741;border-radius:10px;color:white;padding:10px 11px;font-size:12px;direction:ltr;text-align:left}.field:focus{border-color:#a855f7;outline:none}.field::placeholder{color:#71647f}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}textarea.field{min-height:80px;resize:vertical;line-height:1.7}.form-actions{flex-wrap:wrap}.form-error{font-size:10px;color:var(--red);margin-top:8px;min-height:18px}.console-toolbar{margin-bottom:12px}.console-label{font-size:11px;font-weight:700}.console-actions{display:flex;gap:7px}.tiny-btn{font-size:10px;padding:7px 9px;border-radius:8px;background:#ffffff05;border:1px solid var(--line);color:#bdb0d1}.console{border:1px solid #30263f;background:#0b0911;border-radius:14px;overflow:hidden}.console-top{display:flex;justify-content:space-between;padding:10px 12px;border-bottom:1px solid #2a2136;background:#110e18;color:#8e829f;font-size:10px}.lights{display:flex;gap:5px}.lights i{width:7px;height:7px;border-radius:50%;background:#493a59}.lights i:first-child{background:#fb7185}.lights i:nth-child(2){background:#fbbf24}.lights i:nth-child(3){background:#4adea4}.event-list{list-style:none;margin:0;padding:0;max-height:340px;overflow:auto}.event-list li{padding:12px;border-bottom:1px solid #ffffff08;display:grid;grid-template-columns:8px minmax(0,1fr) auto;gap:9px;align-items:start}.log-dot{width:7px;height:7px;border-radius:50%;background:var(--green);margin-top:6px}.log-name{font-size:11px;font-weight:700;direction:ltr;text-align:right;overflow-wrap:anywhere}.log-meta{font-size:9px;color:#8e829f;line-height:1.8;margin-top:4px;direction:ltr;text-align:right;overflow-wrap:anywhere}.log-time{font-size:9px;color:#82758f;white-space:nowrap}.empty-state{display:block!important;text-align:center;padding:32px 10px!important;color:#82758f;font-size:11px;line-height:2}.delivery-note{margin-top:13px;color:var(--muted);font-size:10px;line-height:1.9}.footer{margin-top:25px;padding-top:16px;border-top:1px solid var(--line);color:#81758f;font-size:10px;flex-wrap:wrap}.footer a{color:#c4b5fd;text-decoration:none}.toast{position:fixed;bottom:20px;left:20px;z-index:10;max-width:min(390px,calc(100vw - 32px));padding:12px 15px;background:#20172d;border:1px solid #a855f755;border-radius:12px;color:white;box-shadow:0 14px 45px #0008;font-size:11px;line-height:1.8;opacity:0;transform:translateY(10px);pointer-events:none;transition:.2s}.toast.show{opacity:1;transform:none}@media(max-width:950px){.hero,.layout{grid-template-columns:1fr}.hero-art{min-height:220px}.stats{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.shell{padding:17px 13px 30px}.topbar{align-items:flex-start}.top-actions .pill{display:none}.hero-copy{padding:24px 19px}.stats{gap:8px}.stat{padding:13px}.stat-value{font-size:22px}.panel-head{padding:17px}.panel-body{padding:16px}.event-grid{gap:8px}.event-btn{padding:11px 8px;gap:7px}.ev-icon{width:32px;height:32px;flex-basis:32px}.event-btn strong{font-size:10px}.event-btn small{font-size:9px}.consent-panel{align-items:flex-start;flex-direction:column;padding:15px}.consent-actions{width:100%}.consent-actions button{flex:1}.form-row{grid-template-columns:1fr}.log-time{font-size:8px}.footer{align-items:flex-start;flex-direction:column}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+</style></head>
+<body><main class="shell">
+<header class="topbar"><div class="brand"><div class="brand-mark"><svg viewBox="0 0 24 24" fill="none"><path d="M4 17.5 9.2 12l3.4 3.1L20 6.5m-4.2 0H20v4.2" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><div class="brand-name">آزمایشگاه داده <span style="color:#c084fc">/ GA4</span></div><div class="brand-sub">محیط تعاملی تست رویدادهای آنالیتیکس</div></div></div><div class="top-actions"><span class="pill"><span class="dot" id="connectionDot"></span><span id="connectionText">ارسال داده غیرفعال</span></span><button class="ghost" id="resetButton" type="button">پاک‌کردن گزارش‌ها</button></div></header>
+<section class="hero"><div class="hero-copy"><span class="eyebrow"><span></span> محیط توسعه و آزمایش</span><h1>رویدادها را بساز.<br><em>داده‌ها را شفاف ببین.</em></h1><p>فضایی ساده و حرفه‌ای برای آزمایش رویدادهای Google Analytics 4؛ بدون نیاز به کدنویسی برای تست‌های معمول، همراه با گزارش زنده از رویدادهایی که ایجاد می‌کنی.</p><div class="hero-actions"><button class="primary" id="scrollToEvents" type="button">شروع آزمایش رویدادها ←</button><button class="secondary" id="showConsent" type="button">تنظیمات حریم خصوصی</button></div></div><div class="hero-art"><div class="chart-title">نمای فعالیت <small>نمودار نمایشی</small></div><div class="chart" aria-hidden="true"><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i></div><div class="chart-foot"><div><strong id="heroCount">۰</strong>رویداد ثبت‌شده در این نشست</div><span style="color:var(--green)">● آمادهٔ آزمایش</span></div></div></section>
+<section class="stats"><article class="stat"><div class="stat-top">رویدادهای این نشست <span class="stat-icon">↗</span></div><div class="stat-value" id="statTotal">۰</div><div class="stat-note">رویدادهای ثبت‌شده محلی و ارسالی</div></article><article class="stat"><div class="stat-top">رویدادهای استاندارد <span class="stat-icon">✓</span></div><div class="stat-value" id="statStandard">۰</div><div class="stat-note">مشاهده، سبد خرید، ورود و خرید</div></article><article class="stat"><div class="stat-top">رویدادهای سفارشی <span class="stat-icon">{ }</span></div><div class="stat-value" id="statCustom">۰</div><div class="stat-note">رویدادهای تعریف‌شده توسط تو</div></article><article class="stat"><div class="stat-top">وضعیت اتصال <span class="stat-icon">◇</span></div><div class="stat-value" id="statStatus" style="font-size:20px">محلی</div><div class="stat-note" id="statStatusNote">ارسال به GA4 نیازمند رضایت است</div></article></section>
+<section class="consent-panel" id="consentPanel"><div class="consent-info"><div class="consent-icon">◇</div><div><strong id="consentTitle">انتخاب با توست: ارسال داده‌های تحلیلی</strong><p id="consentDescription">رویدادها ابتدا در این صفحه ثبت می‌شوند. برای ارسال به شناسهٔ GA4 باید اجازه بدهی. اطلاعات پرداخت واقعی یا رمز عبور جمع‌آوری نمی‌شود.</p></div></div><div class="consent-actions"><button class="primary" id="acceptConsent" type="button">اجازهٔ ارسال به GA4</button><button class="secondary" id="rejectConsent" type="button">فقط ثبت محلی</button></div></section>
+<div class="layout" id="eventArea"><section class="panel"><div class="panel-head"><div><h2>آزمایش سریع رویدادها</h2><p>برای ثبت یک رویداد نمونه روی گزینه‌ای کلیک کن.</p></div><span class="section-tag">GA4 · Events</span></div><div class="panel-body"><div class="event-grid">
+<button class="event-btn" data-event="view_item"><span class="ev-icon">◉</span><span><strong>مشاهدهٔ محصول</strong><small>view_item</small></span><span class="arrow">←</span></button>
+<button class="event-btn" data-event="add_to_cart"><span class="ev-icon">＋</span><span><strong>افزودن به سبد</strong><small>add_to_cart</small></span><span class="arrow">←</span></button>
+<button class="event-btn" data-event="sign_up"><span class="ev-icon">♙</span><span><strong>ثبت‌نام آزمایشی</strong><small>sign_up</small></span><span class="arrow">←</span></button>
+<button class="event-btn" data-event="login"><span class="ev-icon">↪</span><span><strong>ورود آزمایشی</strong><small>login</small></span><span class="arrow">←</span></button>
+<button class="event-btn" data-event="purchase"><span class="ev-icon">＄</span><span><strong>خرید نمایشی</strong><small>purchase</small></span><span class="arrow">←</span></button>
+<button class="event-btn" data-event="generate_lead"><span class="ev-icon">✉</span><span><strong>ثبت سرنخ</strong><small>generate_lead</small></span><span class="arrow">←</span></button></div>
+<div class="notice">⚠ رویداد «خرید» کاملاً نمایشی است و تراکنش واقعی ایجاد نمی‌کند. برای جلوگیری از ثبت خرید آزمایشی در گزارش واقعی، بهتر است از شناسهٔ GA4 مخصوص آزمایش استفاده کنی.</div>
+<div class="custom-form"><h3 class="form-title">ساخت رویداد سفارشی</h3><p class="form-hint">نام رویداد و پارامترهای JSON را وارد کن تا ساختار رویداد را آزمایش کنی.</p><div class="form-row"><div><label for="customName">نام رویداد</label><input class="field" id="customName" maxlength="40" value="button_test" autocomplete="off"></div><div><label for="customCategory">دسته‌بندی آزمایشی</label><input class="field" id="customCategory" maxlength="60" value="experiment" autocomplete="off"></div></div><div style="margin-bottom:13px"><label for="customParams">پارامترها (JSON)</label><textarea class="field" id="customParams" spellcheck="false">{
+  "button_name": "test_button",
+  "test_mode": true
+}</textarea></div><div class="form-actions"><span style="font-size:10px;color:var(--muted)">اطلاعات حساس وارد نکن.</span><button class="primary" id="sendCustom" type="button">ثبت رویداد سفارشی ←</button></div><div class="form-error" id="formError" role="status" aria-live="polite"></div></div></div></section>
+<section class="panel"><div class="panel-head"><div><h2>گزارش رویدادها</h2><p>رویدادهای ثبت‌شده در همین نشست را ببین.</p></div><span class="section-tag" id="consoleStatus">LOCAL LOG</span></div><div class="panel-body"><div class="console-toolbar"><span class="console-label">جریان رویدادها <span style="color:#82758f;font-weight:400" id="logCount">(۰)</span></span><div class="console-actions"><button class="tiny-btn" id="exportButton">خروجی JSON</button><button class="tiny-btn" id="clearButton">پاک‌کردن</button></div></div><div class="console"><div class="console-top"><span>event-stream / session</span><span class="lights"><i></i><i></i><i></i></span></div><ol class="event-list" id="eventList"><li class="empty-state">هنوز رویدادی ثبت نشده است. برای شروع یکی از دکمه‌های آزمایش را انتخاب کن.</li></ol></div><div class="delivery-note" id="deliveryNote">● رویدادها فعلاً فقط در این صفحه ثبت می‌شوند؛ برای ارسال به GA4، رضایت را فعال کن.</div></div></section></div>
+<footer class="footer"><span>آزمایشگاه GA4 · ساخته‌شده برای تست و یادگیری</span><span>شناسهٔ اندازه‌گیری: <b dir="ltr" style="color:#c4b5fd">G-F7F4L54ZT6</b> · <a href="https://support.google.com/analytics/answer/9267735" target="_blank" rel="noopener noreferrer">راهنمای رویدادهای GA4 ↗</a></span></footer></main><div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+(function(){'use strict';var ID='G-F7F4L54ZT6',KEY='ga4-lab-consent-v1',events=[],standard=['view_item','add_to_cart','sign_up','login','purchase','generate_lead'],consent='unknown',loaded=false,timer;try{consent=localStorage.getItem(KEY)||'unknown'}catch(e){}
+function txt(id,v){document.getElementById(id).textContent=v}function num(v){return Number(v).toLocaleString('fa-IR')}function toast(msg){var el=document.getElementById('toast');el.textContent=msg;el.classList.add('show');clearTimeout(timer);timer=setTimeout(function(){el.classList.remove('show')},3000)}
+function updateConsent(){var active=consent==='accepted',rejected=consent==='rejected';document.getElementById('connectionDot').classList.toggle('ok',active);txt('connectionText',active?'ارسال به GA4 فعال است':rejected?'ارسال غیرفعال است':'ارسال داده غیرفعال');txt('statStatus',active?'فعال':'محلی');txt('statStatusNote',active?'ارسال رویدادها مجاز است':'رویدادها فقط در همین صفحه ثبت می‌شوند');txt('consentTitle',active?'رضایت ارسال داده فعال است':rejected?'ارسال داده‌های تحلیلی غیرفعال است':'انتخاب با توست: ارسال داده‌های تحلیلی');txt('consentDescription',active?'با انتخاب تو، رویدادهای آزمایشی به شناسهٔ GA4 تنظیم‌شده ارسال می‌شوند. می‌توانی هر زمان ارسال را غیرفعال کنی.':'رویدادها ابتدا در این صفحه ثبت می‌شوند. برای ارسال به شناسهٔ GA4 تنظیم‌شده باید اجازه بدهی. اطلاعات پرداخت واقعی یا رمز عبور جمع‌آوری نمی‌شود.');document.getElementById('acceptConsent').disabled=active;document.getElementById('acceptConsent').style.opacity=active?'.65':'1';txt('consoleStatus',active?'GA4 + LOCAL':'LOCAL LOG');txt('deliveryNote',active?'● رویدادها در گزارش محلی ثبت و برای GA4 ارسال می‌شوند؛ ممکن است در گزارش‌های استاندارد با کمی تأخیر دیده شوند.':'● رویدادها فعلاً فقط در این صفحه ثبت می‌شوند؛ برای ارسال به GA4، رضایت را فعال کن.')}
+function loadGA(){if(loaded)return;window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments)};window.gtag('js',new Date());window.gtag('config',ID,{send_page_view:false});var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(ID);s.onerror=function(){toast('بارگذاری اسکریپت GA4 ناموفق بود؛ شبکه را بررسی کن.')};document.head.appendChild(s);loaded=true;window.gtag('event','page_view',{page_title:document.title,page_location:location.href})}
+function setConsent(v){consent=v;try{localStorage.setItem(KEY,v)}catch(e){}if(v==='accepted')loadGA();updateConsent();toast(v==='accepted'?'ارسال رویدادهای آزمایشی به GA4 فعال شد.':'ارسال به GA4 غیرفعال شد؛ گزارش محلی کار می‌کند.')}
+function params(name){var p={test_mode:true,source:'ga4_testing_lab'},items=[{item_id:'demo_item_001',item_name:'محصول نمایشی Aurora',item_category:'Test product',price:49.9,quantity:1}];if(name==='view_item'||name==='add_to_cart')Object.assign(p,{currency:'USD',value:49.9,items:items});if(name==='sign_up')p.method='email';if(name==='login')p.method='demo';if(name==='purchase')Object.assign(p,{transaction_id:'TEST-'+Date.now(),currency:'USD',value:49.9,tax:0,shipping:0,items:items});if(name==='generate_lead')Object.assign(p,{currency:'USD',value:1,lead_source:'test_form'});return p}
+function log(name,p,custom){var entry={event_name:name,parameters:p,time:new Date().toISOString(),sent_to_ga4:consent==='accepted',custom:!!custom};events.unshift(entry);render();stats();if(consent==='accepted'&&typeof window.gtag==='function'){window.gtag('event',name,p);toast('رویداد «'+name+'» ثبت و برای GA4 ارسال شد.')}else toast('رویداد «'+name+'» در گزارش محلی ثبت شد.')}
+function render(){var list=document.getElementById('eventList');list.textContent='';if(!events.length){var empty=document.createElement('li');empty.className='empty-state';empty.textContent='هنوز رویدادی ثبت نشده است. برای شروع یکی از دکمه‌های آزمایش را انتخاب کن.';list.appendChild(empty)}events.slice(0,100).forEach(function(e){var li=document.createElement('li'),dot=document.createElement('span'),body=document.createElement('div'),name=document.createElement('div'),meta=document.createElement('div'),time=document.createElement('time');dot.className='log-dot';dot.style.background=e.sent_to_ga4?'var(--green)':'var(--amber)';name.className='log-name';name.textContent=e.event_name;meta.className='log-meta';meta.textContent=JSON.stringify(e.parameters);body.appendChild(name);body.appendChild(meta);time.className='log-time';time.textContent=new Date(e.time).toLocaleTimeString('fa-IR',{hour:'2-digit',minute:'2-digit',second:'2-digit'});time.dateTime=e.time;li.append(dot,body,time);list.appendChild(li)});txt('logCount','('+num(events.length)+')')}
+function stats(){txt('statTotal',num(events.length));txt('heroCount',num(events.length));txt('statStandard',num(events.filter(function(e){return standard.indexOf(e.event_name)!==-1}).length));txt('statCustom',num(events.filter(function(e){return e.custom}).length))}
+function clear(){events=[];render();stats();toast('گزارش رویدادهای این نشست پاک شد.')}
+document.querySelectorAll('[data-event]').forEach(function(b){b.addEventListener('click',function(){var n=b.getAttribute('data-event');log(n,params(n),false)})});document.getElementById('acceptConsent').addEventListener('click',function(){setConsent('accepted')});document.getElementById('rejectConsent').addEventListener('click',function(){setConsent('rejected')});document.getElementById('showConsent').addEventListener('click',function(){document.getElementById('consentPanel').scrollIntoView({behavior:'smooth',block:'center'})});document.getElementById('scrollToEvents').addEventListener('click',function(){document.getElementById('eventArea').scrollIntoView({behavior:'smooth'})});document.getElementById('clearButton').addEventListener('click',clear);document.getElementById('resetButton').addEventListener('click',clear);
+document.getElementById('sendCustom').addEventListener('click',function(){var n=document.getElementById('customName').value.trim(),cat=document.getElementById('customCategory').value.trim(),raw=document.getElementById('customParams').value.trim(),err=document.getElementById('formError');err.style.color='var(--red)';err.textContent='';if(!/^[a-zA-Z][a-zA-Z0-9_]{0,39}$/.test(n)){err.textContent='نام رویداد باید با حرف انگلیسی شروع شود و فقط شامل حروف، عدد یا زیرخط باشد.';return}var p;try{p=raw?JSON.parse(raw):{}}catch(e){err.textContent='JSON معتبر نیست؛ ویرگول‌ها و علامت نقل‌قول‌ها را بررسی کن.';return}if(!p||Array.isArray(p)||typeof p!=='object'){err.textContent='پارامترها باید یک شیء JSON باشند.';return}p.test_mode=true;p.source='ga4_testing_lab';if(cat)p.test_category=cat;log(n,p,standard.indexOf(n)===-1);err.style.color='var(--green)';err.textContent='رویداد آماده و ثبت شد.'});
+document.getElementById('exportButton').addEventListener('click',function(){var blob=new Blob([JSON.stringify(events,null,2)],{type:'application/json;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='ga4-test-events.json';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);toast('فایل JSON آماده شد.')});updateConsent();render();stats();if(consent==='accepted')loadGA();
+})();
+</script></body></html>
